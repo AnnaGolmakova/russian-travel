@@ -1,0 +1,20 @@
+.footer {
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+  margin: 64px 0 0 0;
+}
+
+@media only screen and (min-width: 768px) {
+  .footer  {
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 88px 0 0 0;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .footer  {
+    margin: 92px 0 0 0;
+  }
+}

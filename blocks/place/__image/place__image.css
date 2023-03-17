@@ -1,0 +1,22 @@
+.place__image {
+  width: calc(100% - 24px);
+}
+
+@media only screen and (max-width: 1024px) {
+  .place__image {
+    width: calc(100% - 16px);
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .place__image {
+    width: calc(100% - 12px);
+  }
+}
+
+@media only screen and (max-width: 640px) {
+  .place__image {
+    width: calc(100% + 32px);
+    margin: 0 -16px;
+  }
+}

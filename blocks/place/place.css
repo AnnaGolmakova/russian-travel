@@ -1,0 +1,13 @@
+.place {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 16px;
+  row-gap: 48px;
+}
+
+@media only screen and (max-width: 640px) {
+  .place {
+    grid-template-columns: 1fr;
+    row-gap: 32px;
+  }
+}
