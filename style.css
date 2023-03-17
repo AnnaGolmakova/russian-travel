@@ -59,7 +59,7 @@
   text-decoration: none;
 }
 
-.header__lang-link_selected {
+.header__lang-link_selected_true {
   text-decoration: underline;
 }
 
@@ -149,12 +149,6 @@
 }
 
 @media only screen and (max-width: 1024px) {
-  .intro  {
-    margin: 88px 0 0 0;
-  }
-}
-
-@media only screen and (max-width: 768px) {
   .intro  {
     margin: 88px 0 0 0;
   }
