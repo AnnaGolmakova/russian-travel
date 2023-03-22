@@ -6,20 +6,22 @@
   gap: 80px;
 }
 
-@media only screen and (max-width: 1024px) {
+@media only screen and (max-width: 1080px) {
   .places {
-    margin: 92px 0;
+    margin: 92px 48px;
   }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1023px) {
   .places {
-    margin: 88px 0 90px 0;
+    margin: 88px 24px 90px 24px;
+    gap: 73px;
   }
 }
 
 @media only screen and (max-width: 640px) {
   .places {
-    margin: 64px 0 66px 0;
+    margin: 64px 16px 66px 16px;
+    gap: 50px;
   }
 }

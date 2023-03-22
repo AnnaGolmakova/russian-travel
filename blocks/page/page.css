@@ -3,23 +3,11 @@
   background-color: #2A2C2F;
   font-family: 'Inter', Arial, sans-serif;
   color: #FFFFFF;
-  margin: 16px 16px 24px 16px;
+  margin: 16px 0 24px 0;
 }
 
 @media only screen and (min-width: 768px) {
   .page  {
-    margin: 28px 24px 24px 24px;
-  }
-}
-
-@media only screen and (min-width: 1024px) {
-  .page  {
-    margin: 28px 48px 24px 48px;
-  }
-}
-
-@media only screen and (min-width: 1280px) {
-  .page  {
-    margin: 28px auto 24px auto;
+    margin: 28px 0 24px 0;
   }
 }

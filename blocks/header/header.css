@@ -3,4 +3,23 @@
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+  margin: 0 16px 0 16px;
+}
+
+@media only screen and (min-width: 768px) {
+  .header  {
+    margin: 0 24px 0 24px;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .header  {
+    margin: 0 48px 0 48px;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .header  {
+    margin: 0;
+  }
 }
